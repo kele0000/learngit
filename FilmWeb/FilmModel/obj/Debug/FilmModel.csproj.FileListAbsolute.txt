@@ -1,0 +1,9 @@
+D:\ASP.Net\FilmWeb\GYFilmWeb\FilmModel\bin\Debug\FilmModel.dll
+D:\ASP.Net\FilmWeb\GYFilmWeb\FilmModel\bin\Debug\FilmModel.pdb
+D:\ASP.Net\FilmWeb\GYFilmWeb\FilmModel\obj\Debug\FilmModel.dll
+D:\ASP.Net\FilmWeb\GYFilmWeb\FilmModel\obj\Debug\FilmModel.pdb
+D:\ASP.Net\FilmWeb\FilmWeb\FilmModel\bin\Debug\FilmModel.dll
+D:\ASP.Net\FilmWeb\FilmWeb\FilmModel\bin\Debug\FilmModel.pdb
+D:\ASP.Net\FilmWeb\FilmWeb\FilmModel\obj\Debug\FilmModel.dll
+D:\ASP.Net\FilmWeb\FilmWeb\FilmModel\obj\Debug\FilmModel.pdb
+D:\ASP.Net\FilmWeb\FilmWeb\FilmModel\obj\Debug\FilmModel.csprojResolveAssemblyReference.cache

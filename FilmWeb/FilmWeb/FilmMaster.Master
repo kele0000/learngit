@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FilmMaster.master.cs" Inherits="GYFilmWeb.FilmMaster1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>南 方 影 视一网打尽好电影</title>
+	<link rel="stylesheet" href="css/style2.css" type="text/css"/>
+    <script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
+    <script src="js/myfocus-2.0.1.min.js"></script>
+<style type="text/css">
+#myFocus{   margin-top:50px;
+            margin-left:25px;
+            display: table;
+            width:957px;
+            height: 350px;
+            left:12.5%;
+}
+    .pic ul li a img {
+    color:deeppink;
+    }
+</style>
+<script type="text/javascript">
+//设置
+myFocus.set({
+	id:'myFocus',//ID
+	pattern: 'mF_fancy',//风格应用名称
+  time:3,//切换时间间隔（秒）
+  trigger:'mouseover',//触发切换模式:'click' (点击)/'mouseover'（鼠标悬停）
+  //width:450,//设置图片区域宽度（像素）
+  //height:296,//设置图片区域高度（像素）
+  //txtHeight:'default'//文字高度设置(像素),'default'(默认高度)/0为隐藏
+  loadMGTimeout:0.1,//图片载入时间
+});
+</script>
+    </head>
+<body>
+    <form id="form1" runat="server">
+        <div id="d1">
+    <div id ="header" style="border:solid 1px blue">
+        <img src="images/logo6.png" style="position:relative;float:right;z-index:20;margin-right:30%;margin-top:20px; top: 0px; left: 0px; height: 108px;" />
+            <div> 
+            <ul>
+                        <li >
+                            <asp:ImageButton ID="ImageButton5" runat="server" ImageUrl="~/images/主页 .ico" Height="24px" Width="26px" PostBackUrl="~/index.aspx"/>
+                            <br /><span style="font-weight:600">首页</span> </li>
+                        <li class="auto-style1">&nbsp;
+                            <asp:ImageButton ID="ImageButton4" runat="server" ImageUrl="~/images/电影1.ico" Height="24px" Width="26px" PostBackUrl="~/movie.aspx"  />
+                            <br /><span style="font-weight:600">电影</span> </li>
+                        <li style=" left: -2px; top:-8px;">
+                            <br /><span style="color:red;font-weight:700;font-family:YouYuan">搜索：</span><asp:TextBox ID="txtss" runat="server" Height="16px" MaxLength="14" ToolTip="请输入您想购买的电影..." Width="240px" BackColor="#FFFFCC" BorderColor="#33CCFF" BorderStyle="Ridge" Font-Bold="True" Font-Names="幼圆" ForeColor="Black" ValidateRequestMode="Enabled" Wrap="False"></asp:TextBox>
+                            <asp:ImageButton ID="ImageButton1" runat="server" Height="26px" ImageUrl="~/image/logo2.png" Width="29px" />
+                        </li>
+                        <li>
+                            <asp:HyperLink ID="ShopCar"  runat="server" style="font-weight:400" >购物车[0]</asp:HyperLink>
+                            <asp:ImageButton ID="IbtnCar" runat="server" ImageUrl="~/images/购物车1.ico" Height="36px" Width="26px" PostBackUrl="~/ShopCar.aspx"/>
+                            <br /></li>
+                        <li>
+                            <asp:ImageButton ID="IbtnUser" runat="server" ImageUrl="~/images/用户.ico" Height="24px" Width="26px" PostBackUrl="~/Login.aspx"/>
+                            <br />
+                            &nbsp;<asp:Label  style="font-weight:600" ID="hyLogin" runat="server" Text="用户"></asp:Label>
+                            <asp:Button  style="font-weight:600" ID="btnEnd" runat="server" Text="退出" Visible="false" BackColor="Transparent" Height="24px" Width="41px" OnClick="btnEnd_Click " OnClientClick="return confirm('是否确认退出登录？')"/>
+                        </li>
+                    </ul> </div>
+
+    </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        				
+        </asp:ContentPlaceHolder>
+       
+	<div id="footer">
+		<div>
+			<div>
+				<span>快速链接</span>
+				<ul>
+					<li style="text-align:center">
+						<a href="index.aspx" >首页</a>
+					</li>
+					<li style="text-align:center">
+						<a href="movie.aspx">电影</a>
+					</li>
+					<li style="text-align:center">
+						<a href="http://www.gd-nf.com.cn/">关于我们</a>
+					</li>
+				</ul>
+			</div>
+			<div class="section">
+				<span> 版 权</span>
+				<ul>
+					<li>
+						<p style="text-align:center">
+                    <a href="http://www.gd-nf.com.cn/" target="_blank">南方宇宙学院</a>版权所有
+						</p>
+					</li>
+                    
+					<li>
+                        <p style="text-align:center"> 服务热线：0756-6811222 0756-6813333</p>
+					</li>
+					<li>
+						<p>
+                    CopyRight &copy; 1996-2016 South Vocational College. All Rights Reserved.
+						</p>
+					</li>
+				</ul>
+</div><div>
+				<span>声  明</span>
+				<p>
+					©2016 南方影视 maoyan.com 京ICP证160733号 京ICP备160261616489号-1 京公网安备 11010502030881号 网络文化经营许可证 电子公告服务规则
+				</p>
+				
+				
+			</div>
+        </div>
+
+	</div>
+        </div>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+D:\ASP.Net\FilmWeb\GYFilmWeb\FilmDAL\bin\Debug\FilmDAL.dll
+D:\ASP.Net\FilmWeb\GYFilmWeb\FilmDAL\bin\Debug\FilmDAL.pdb
+D:\ASP.Net\FilmWeb\GYFilmWeb\FilmDAL\bin\Debug\FilmModel.dll
+D:\ASP.Net\FilmWeb\GYFilmWeb\FilmDAL\bin\Debug\FilmModel.pdb
+D:\ASP.Net\FilmWeb\GYFilmWeb\FilmDAL\obj\Debug\FilmDAL.csprojResolveAssemblyReference.cache
+D:\ASP.Net\FilmWeb\GYFilmWeb\FilmDAL\obj\Debug\FilmDAL.dll
+D:\ASP.Net\FilmWeb\GYFilmWeb\FilmDAL\obj\Debug\FilmDAL.pdb
+D:\ASP.Net\FilmWeb\FilmWeb\FilmDAL\bin\Debug\FilmDAL.dll
+D:\ASP.Net\FilmWeb\FilmWeb\FilmDAL\bin\Debug\FilmDAL.pdb
+D:\ASP.Net\FilmWeb\FilmWeb\FilmDAL\bin\Debug\FilmModel.dll
+D:\ASP.Net\FilmWeb\FilmWeb\FilmDAL\bin\Debug\FilmModel.pdb
+D:\ASP.Net\FilmWeb\FilmWeb\FilmDAL\obj\Debug\FilmDAL.csprojResolveAssemblyReference.cache
+D:\ASP.Net\FilmWeb\FilmWeb\FilmDAL\obj\Debug\FilmDAL.dll
+D:\ASP.Net\FilmWeb\FilmWeb\FilmDAL\obj\Debug\FilmDAL.pdb
